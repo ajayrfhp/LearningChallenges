@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericChallenge", "Generic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Address", "Address\Address.csproj", "{632CF1F7-C299-47F7-AE69-0F3E0F9247E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodChallenge", "MethodChallenge\MethodChallenge.csproj", "{22576878-59BC-44B3-A1E4-A9E4F1D033B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatasetChallenge", "DatasetChallenge\DatasetChallenge.csproj", "{6A28275A-2CE9-4478-B674-71F0DDA8960B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{632CF1F7-C299-47F7-AE69-0F3E0F9247E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{632CF1F7-C299-47F7-AE69-0F3E0F9247E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{632CF1F7-C299-47F7-AE69-0F3E0F9247E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22576878-59BC-44B3-A1E4-A9E4F1D033B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22576878-59BC-44B3-A1E4-A9E4F1D033B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22576878-59BC-44B3-A1E4-A9E4F1D033B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22576878-59BC-44B3-A1E4-A9E4F1D033B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A28275A-2CE9-4478-B674-71F0DDA8960B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A28275A-2CE9-4478-B674-71F0DDA8960B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A28275A-2CE9-4478-B674-71F0DDA8960B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A28275A-2CE9-4478-B674-71F0DDA8960B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
