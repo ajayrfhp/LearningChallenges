@@ -5,3 +5,6 @@ CSVReader csvReader = new CSVReader("C:\\Users\\ajviswan\\source\\repos\\Learnin
 List<UserModel> users = csvReader.Read<UserModel>();
 
 users.Print();
+users.Add(new UserModel { FirstName = "Mr", LastName="Beau", Age=5, IsAlive=true });
+users.Print();
+csvReader.Write(users);
