@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DatasetChallenge
 {
-    public class CSVReader
+    public class CSVParser
     {
         public string FilePath { get; set; }
 
@@ -17,7 +17,7 @@ namespace DatasetChallenge
 
         public string[] Columns { get; set; }
 
-        public CSVReader(string filePath, bool hasHeader, string[] columns)
+        public CSVParser(string filePath, bool hasHeader, string[] columns)
         {
             this.FilePath = filePath;
             this.HasHeader = hasHeader;

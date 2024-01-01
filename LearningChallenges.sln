@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodChallenge", "MethodCh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatasetChallenge", "DatasetChallenge\DatasetChallenge.csproj", "{6A28275A-2CE9-4478-B674-71F0DDA8960B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileRenameChallenge", "FileRenameChallenge\FileRenameChallenge.csproj", "{061D4822-BE57-4820-87ED-72BEFAAB0DF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{6A28275A-2CE9-4478-B674-71F0DDA8960B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A28275A-2CE9-4478-B674-71F0DDA8960B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A28275A-2CE9-4478-B674-71F0DDA8960B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061D4822-BE57-4820-87ED-72BEFAAB0DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061D4822-BE57-4820-87ED-72BEFAAB0DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061D4822-BE57-4820-87ED-72BEFAAB0DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061D4822-BE57-4820-87ED-72BEFAAB0DF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
