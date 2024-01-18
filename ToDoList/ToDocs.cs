@@ -5,13 +5,13 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TodoApp
+namespace ToDoList
 {
     public class ToDo
     {
         public List<string> ToDoList { get; set; }
-        public ToDo() 
-        { 
+        public ToDo()
+        {
             this.ToDoList = new List<string>();
         }
 
@@ -23,7 +23,7 @@ namespace TodoApp
 
         public void Print(int n)
         {
-            for(int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++)
             {
                 Console.Write("{0},", this.ToDoList[i]);
             }
@@ -37,7 +37,7 @@ namespace TodoApp
 
         public void Done(string item)
         {
-            if(this.ToDoList.IndexOf(item) == -1)
+            if (this.ToDoList.IndexOf(item) == -1)
             {
                 throw new ArgumentException("item not in list");
             }
@@ -47,7 +47,7 @@ namespace TodoApp
         public void Reorder(string item, int priority)
         {
             int currentPriority = this.ToDoList.IndexOf(item);
-            if ( currentPriority == -1)
+            if (currentPriority == -1)
             {
                 throw new ArgumentException("Item is not present");
             }
@@ -74,7 +74,7 @@ namespace TodoApp
 
                 }
             }
-            
+
         }
 
     }
