@@ -36,12 +36,14 @@ namespace WebAsyncApp
 
         public async Task DoAsyncWork()
         {
+            List<Task> tasks = new List<Task>();
             foreach (string file in files)
             {
                 Console.WriteLine("Begining Async download for {0}", file);
-                await this.HttpClient.GetAsync(file);
+                tasks.Add(this.HttpClient.GetAsync(file));
                 Console.WriteLine("Downloaded Async data for {0}", file);
             }
+            await Task.WhenAll(tasks);
         }
 
     }

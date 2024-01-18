@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34302.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningChallenges", "LearningChallenges\LearningChallenges.csproj", "{7DA1D46A-EF1A-4F62-A76E-3C6CBE39CCB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp", "LearningChallenges\TodoApp.csproj", "{7DA1D46A-EF1A-4F62-A76E-3C6CBE39CCB6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeChallenge", "DateTimeChallenge\DateTimeChallenge.csproj", "{FA0DBCD7-896F-4D3E-B248-C31553768A55}"
 EndProject
@@ -13,25 +13,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Person", "Person\Person.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirthdayChallenge", "BirthdayChallenge\BirthdayChallenge.csproj", "{C902859A-1E58-4232-A3E4-662340AF73D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{BCA3ECC7-E8BC-493D-BF5A-ECF2D0018B75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{BCA3ECC7-E8BC-493D-BF5A-ECF2D0018B75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleExtender", "DoubleExtender\DoubleExtender.csproj", "{369ECE72-1AE0-431B-B374-42EAF4204C9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleExtender", "DoubleExtender\DoubleExtender.csproj", "{369ECE72-1AE0-431B-B374-42EAF4204C9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericChallenge", "GenericChallenge\GenericChallenge.csproj", "{FA8DC5FB-6E93-4143-95C8-D61C1243BF21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericChallenge", "GenericChallenge\GenericChallenge.csproj", "{FA8DC5FB-6E93-4143-95C8-D61C1243BF21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Address", "Address\Address.csproj", "{632CF1F7-C299-47F7-AE69-0F3E0F9247E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Address", "Address\Address.csproj", "{632CF1F7-C299-47F7-AE69-0F3E0F9247E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodChallenge", "MethodChallenge\MethodChallenge.csproj", "{22576878-59BC-44B3-A1E4-A9E4F1D033B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodChallenge", "MethodChallenge\MethodChallenge.csproj", "{22576878-59BC-44B3-A1E4-A9E4F1D033B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatasetChallenge", "DatasetChallenge\DatasetChallenge.csproj", "{6A28275A-2CE9-4478-B674-71F0DDA8960B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatasetChallenge", "DatasetChallenge\DatasetChallenge.csproj", "{6A28275A-2CE9-4478-B674-71F0DDA8960B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileRenameChallenge", "FileRenameChallenge\FileRenameChallenge.csproj", "{061D4822-BE57-4820-87ED-72BEFAAB0DF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileRenameChallenge", "FileRenameChallenge\FileRenameChallenge.csproj", "{061D4822-BE57-4820-87ED-72BEFAAB0DF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy", "Toy\Toy.csproj", "{A9E2448B-8941-4890-AB32-B49152790B45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toy", "Toy\Toy.csproj", "{A9E2448B-8941-4890-AB32-B49152790B45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAsyncApp", "FileAsyncApp\FileAsyncApp.csproj", "{30A8CA02-F1CC-40E1-AC6C-1811920DE667}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileAsyncApp", "FileAsyncApp\FileAsyncApp.csproj", "{30A8CA02-F1CC-40E1-AC6C-1811920DE667}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAsyncApp", "WebAsyncApp\WebAsyncApp.csproj", "{576A4CA8-7057-4A18-90DB-85040CE52C5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAsyncApp", "WebAsyncApp\WebAsyncApp.csproj", "{576A4CA8-7057-4A18-90DB-85040CE52C5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
