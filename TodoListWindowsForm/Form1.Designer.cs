@@ -44,8 +44,7 @@
             checkedListBox1.Name = "checkedListBox1";
             checkedListBox1.Size = new Size(240, 184);
             checkedListBox1.TabIndex = 0;
-            checkedListBox1.KeyDown += checkedListBox1_KeyDown;
-            checkedListBox1.KeyUp += checkedListBox1_KeyUp;
+            checkedListBox1.KeyPress += checkedListBox1_KeyPress;
             // 
             // button1
             // 
