@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileAsyncApp", "FileAsyncAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAsyncApp", "WebAsyncApp\WebAsyncApp.csproj", "{576A4CA8-7057-4A18-90DB-85040CE52C5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoList.csproj", "{5D68DC9C-F90A-448B-9D3B-82DC7F544D1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList", "ToDoList\ToDoList.csproj", "{5D68DC9C-F90A-448B-9D3B-82DC7F544D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListWindowsForm", "TodoListWindowsForm\TodoListWindowsForm.csproj", "{059B4AA7-6AEB-43FD-A775-02FCBDD8626C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{5D68DC9C-F90A-448B-9D3B-82DC7F544D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D68DC9C-F90A-448B-9D3B-82DC7F544D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D68DC9C-F90A-448B-9D3B-82DC7F544D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{059B4AA7-6AEB-43FD-A775-02FCBDD8626C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059B4AA7-6AEB-43FD-A775-02FCBDD8626C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059B4AA7-6AEB-43FD-A775-02FCBDD8626C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059B4AA7-6AEB-43FD-A775-02FCBDD8626C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
