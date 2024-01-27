@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            checkedListBox1 = new CheckedListBox();
+            checkbox = new CheckedListBox();
             button1 = new Button();
             button2 = new Button();
             label1 = new Label();
@@ -37,14 +37,14 @@
             button4 = new Button();
             SuspendLayout();
             // 
-            // checkedListBox1
+            // checkbox
             // 
-            checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Location = new Point(104, 49);
-            checkedListBox1.Name = "checkedListBox1";
-            checkedListBox1.Size = new Size(240, 184);
-            checkedListBox1.TabIndex = 0;
-            checkedListBox1.KeyPress += checkedListBox1_KeyPress;
+            checkbox.FormattingEnabled = true;
+            checkbox.Location = new Point(104, 49);
+            checkbox.Name = "checkbox";
+            checkbox.Size = new Size(240, 184);
+            checkbox.TabIndex = 0;
+            checkbox.KeyPress += checkedListBox1_KeyPress;
             // 
             // button1
             // 
@@ -109,7 +109,7 @@
             Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(checkedListBox1);
+            Controls.Add(checkbox);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -118,7 +118,7 @@
 
         #endregion
 
-        private CheckedListBox checkedListBox1;
+        private CheckedListBox checkbox;
         private Button button1;
         private Button button2;
         private Label label1;
